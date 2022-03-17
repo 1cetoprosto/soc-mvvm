@@ -12,8 +12,8 @@ extension UIImage {
     static func getImage(from url: String) -> UIImage? {
         var img: UIImage?
         
-        let tempUrl = URL(string: url)
-        if let data = try? Data(contentsOf: tempUrl!) {
+        guard let tempUrl = URL(string: url) else { return nil }
+        if let data = try? Data(contentsOf: tempUrl) {
             img = UIImage(data: data)
         } else {
             img = nil
