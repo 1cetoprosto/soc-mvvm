@@ -25,12 +25,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //создаем бекграунд для view
-        UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "bg")?.draw(in: self.view.bounds)
-        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
-        view.backgroundColor = UIColor(patternImage: image)
+        view.setBackgroundImage(named: "bg")
         
         navigationItem.title = "Школа Христа (аудио-уроки)"
         
@@ -53,6 +48,7 @@ class MainViewController: UIViewController {
 
 }
 
+//MARK: - TableView DataSource & Delegate
 extension MainViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -95,7 +91,6 @@ extension MainViewController: UITableViewDelegate {
         let detailVC = DetailViewController()
         detailVC.viewModel = detailViewModel
         navigationController?.pushViewController(detailVC, animated: true)
-        //presenter.tapOnTheTrack(track: track)
     }
 }
 

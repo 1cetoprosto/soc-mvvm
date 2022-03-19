@@ -17,6 +17,9 @@ class DetailViewController: UIViewController {
         static let topInset: CGFloat = 10
         static let leftRightInset: CGFloat = 16
         static let spacing: CGFloat = 50
+        static let playImage: UIImage? = UIImage(systemName: "play.fill")
+        static let pauseImage: UIImage? = UIImage(systemName: "pause.fill")
+        static let nameBackgroundImage: String = "bg"
     }
     
     private var player: AVPlayer! //AVQueuePlayer!
@@ -29,33 +32,31 @@ class DetailViewController: UIViewController {
     //        return imgView
     //    }()
     
-    private var lblTrack: UILabel = {
+    private lazy var lblTrack: UILabel = {
         let lbl = UILabel(text: "Audio", font: UIFont.euphemia24())
-        //lbl.numberOfLines = 0
         
         return lbl
     }()
     
-    private var lblAlbum: UILabel = {
+    private lazy var lblAlbum: UILabel = {
         let lbl = UILabel(text: "Album", font: UIFont.euphemia17())
-        //lbl.numberOfLines = 0
         
         return lbl
     }()
     
-    private var lblCurrentTime: UILabel = {
+    private lazy var lblCurrentTime: UILabel = {
         let lbl = UILabel(text: "00:00", font: UIFont.euphemia17())
         
         return lbl
     }()
     
-    private var lblDuration: UILabel = {
+    private lazy var lblDuration: UILabel = {
         let lbl = UILabel(text: "00:00", font: UIFont.euphemia17())
         
         return lbl
     }()
     
-    private var durationSlider: UISlider = {
+    private lazy var durationSlider: UISlider = {
         let slider = UISlider()
         slider.tintColor = .white
         slider.addTarget(self, action: #selector(changeDurationSlider), for: .valueChanged)
@@ -63,11 +64,11 @@ class DetailViewController: UIViewController {
         return slider
     }()
     
-    private var playButton: UIButton = {
+    private lazy var playButton: UIButton = {
         let btn = UIButton(type: .roundedRect)
         btn.tintColor = .white
         //btn.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
-        btn.setImage(UIImage(systemName: "play.fill"), for: .normal)
+        btn.setImage(UIConstants.playImage, for: .normal)
         btn.addTarget(self, action: #selector(playButtonIsTapped(sender:)), for: .touchUpInside)
         
         return btn
@@ -99,13 +100,13 @@ class DetailViewController: UIViewController {
     }
     
     private func play() {
-        let pauseImage = UIImage(systemName: "pause.fill")
+        let pauseImage = UIConstants.pauseImage
         playButton.setImage(pauseImage, for: .normal)
         player.play()
     }
     
     private func pause() {
-        let playImage = UIImage(systemName: "play.fill")
+        let playImage = UIConstants.playImage
         playButton.setImage(playImage, for: .normal)
         player.pause()
     }
@@ -132,12 +133,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //створюємо бекграунд для view
-        UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "bg")?.draw(in: self.view.bounds)
-        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
-        self.view.backgroundColor = UIColor(patternImage: image)
+        view.setBackgroundImage(named: UIConstants.nameBackgroundImage)
         
         title = "Сейчас воспроизводится"
         //змінюємо атрибути заголовку NavigationBar

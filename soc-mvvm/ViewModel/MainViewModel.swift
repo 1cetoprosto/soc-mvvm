@@ -20,7 +20,6 @@ class MainViewModel: MainViewViewModelType {
             DispatchQueue.main.async {
                 switch result {
                 case .success(let albumArray):
-                    //albumArray = albumArray
                     self.albumArray = albumArray
                     completion()
                     //self.view?.succes()

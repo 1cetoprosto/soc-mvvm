@@ -9,11 +9,11 @@ import UIKit
 
 extension UIImage {
     
-    static func getImage(from url: String) -> UIImage? {
+    static func getImage(from stringUrl: String) -> UIImage? {
         var img: UIImage?
         
-        guard let tempUrl = URL(string: url) else { return nil }
-        if let data = try? Data(contentsOf: tempUrl) {
+        guard let url = URL(string: stringUrl) else { return nil }
+        if let data = try? Data(contentsOf: url) {
             img = UIImage(data: data)
         } else {
             img = nil

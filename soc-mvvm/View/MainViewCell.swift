@@ -16,7 +16,7 @@ class MainViewCell: UITableViewCell {
         static let spacing: CGFloat = 20
     }
     
-    private var trackImageView: UIImageView = {
+    private lazy var trackImageView: UIImageView = {
         let imgView = UIImageView()
         imgView.contentMode = .scaleAspectFit
         imgView.clipsToBounds = true

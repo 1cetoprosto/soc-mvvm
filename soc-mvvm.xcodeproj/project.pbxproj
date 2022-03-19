@@ -24,12 +24,12 @@
 		F357134727DCA4A300AB7A11 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357134627DCA4A300AB7A11 /* UIImage+Extension.swift */; };
 		F357134B27DCA6FE00AB7A11 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357134A27DCA6FD00AB7A11 /* DetailViewModel.swift */; };
 		F3E1E7D327DCEA9D00787876 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1E7D227DCEA9D00787876 /* UIFont+Extension.swift */; };
-		F3E1E7D527DCEAA700787876 /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1E7D427DCEAA700787876 /* URLSession+Extension.swift */; };
 		F3E1E7D727DCEAB300787876 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1E7D627DCEAB300787876 /* UILabel+Extension.swift */; };
 		F3E1E7D927DCEABF00787876 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1E7D827DCEABF00787876 /* Other.swift */; };
 		F3E1E7DB27DCEBCB00787876 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1E7DA27DCEBCB00787876 /* MainViewCell.swift */; };
 		F3E1E7DD27E05C4700787876 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1E7DC27E05C4700787876 /* DetailViewController.swift */; };
 		F3E1E7E127E0683F00787876 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1E7E027E0683F00787876 /* NetworkService.swift */; };
+		F3E1E7E327E5DE2000787876 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1E7E227E5DE2000787876 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,12 +71,12 @@
 		F357134627DCA4A300AB7A11 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		F357134A27DCA6FD00AB7A11 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		F3E1E7D227DCEA9D00787876 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
-		F3E1E7D427DCEAA700787876 /* URLSession+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
 		F3E1E7D627DCEAB300787876 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		F3E1E7D827DCEABF00787876 /* Other.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
 		F3E1E7DA27DCEBCB00787876 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
 		F3E1E7DC27E05C4700787876 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F3E1E7E027E0683F00787876 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F3E1E7E227E5DE2000787876 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,8 +211,8 @@
 			children = (
 				F357134627DCA4A300AB7A11 /* UIImage+Extension.swift */,
 				F3E1E7D627DCEAB300787876 /* UILabel+Extension.swift */,
-				F3E1E7D427DCEAA700787876 /* URLSession+Extension.swift */,
 				F3E1E7D227DCEA9D00787876 /* UIFont+Extension.swift */,
+				F3E1E7E227E5DE2000787876 /* UIView+Extension.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -367,10 +367,10 @@
 				F3E1E7D327DCEA9D00787876 /* UIFont+Extension.swift in Sources */,
 				F35712C527DC7B5D00AB7A11 /* SceneDelegate.swift in Sources */,
 				F357134727DCA4A300AB7A11 /* UIImage+Extension.swift in Sources */,
+				F3E1E7E327E5DE2000787876 /* UIView+Extension.swift in Sources */,
 				F357133927DC9E4C00AB7A11 /* MainViewCellViewModelType.swift in Sources */,
 				F3E1E7DB27DCEBCB00787876 /* MainViewCell.swift in Sources */,
 				F3E1E7D727DCEAB300787876 /* UILabel+Extension.swift in Sources */,
-				F3E1E7D527DCEAA700787876 /* URLSession+Extension.swift in Sources */,
 				F357134B27DCA6FE00AB7A11 /* DetailViewModel.swift in Sources */,
 				F357134527DCA2D800AB7A11 /* MainViewCellViewModel.swift in Sources */,
 			);
