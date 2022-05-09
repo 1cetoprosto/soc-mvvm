@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import UIKit
+//import UIKit
 
 protocol MainViewCellViewModelType: AnyObject {
     var trackImageView: String { get }

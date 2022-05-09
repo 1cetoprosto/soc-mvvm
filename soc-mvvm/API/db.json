@@ -1,0 +1,243 @@
+{
+    "name": "Школа Христа (аудио-уроки)",
+    "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+    "text": "Берт Кленденнен был миссионером, проповедником и основателем христианского учебного заведение «Школа Христа». Родился Берт в США, штате Техас, уверовал в Бога и принял Его как личного Спасителя только в двадцать семь лет, после чего стал незамедлительно трудиться на Божьей ниве. Через несколько лет после покаяния Берт был рукоположен на пасторское служение в Церкви «Храм победы», находящейся в его родном штате. Всю жизнь Кленденнен посвятил на познания Христа и Его Истины, своими достижениями он делился в «Школе Христа» через личное преподавание и через книги, которые писал. «Школа Христа» это не только способ получить документ о христианском образовании, но и способ посвятить свое сердце, чтобы проповедовать Евангелие до краев земли",
+    "series": [
+      {
+        "name": "Серия: Школа Христа",
+        "lessons": [
+          {
+            "number": 1,
+            "name": "Урок №1. Основание духовного образования",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1210,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_01_1.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Дух истины",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1729,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_01_2.mp3"
+          },
+          {
+            "number": 3,
+            "name": "Урок №3. Познание через откровение",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1132,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_01_3.mp3"
+          },
+          {
+            "number": 4,
+            "name": "Урок №4. Дом Божий",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1729,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_01_4.mp3"
+          },
+          {
+            "number": 5,
+            "name": "Урок №5. Свет жизни",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1729,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_01_5.mp3"
+          },
+          {
+            "number": 6,
+            "name": "Урок №6. Отверстое небо",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1729,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_01_6.mp3"
+          },
+          {
+            "number": 7,
+            "name": "Урок №7. Познание под помазанием",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1729,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_01_7.mp3"
+          },
+          {
+            "number": 8,
+            "name": "Урок №8. Принцип семени",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1729,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_01_8.mp3"
+          }
+        ]
+      },
+      {
+        "name": "Серия: Личность Иисуса",
+        "lessons": [
+          {
+            "number": 1,
+            "name": "Урок №1. Личность Иисуса",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1593,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_1.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №3. Небесный человек и жизнь вечная",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_3.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          }
+        ]
+      },
+      {
+        "name": "Серия: Личность Иисуса",
+        "lessons": [
+          {
+            "number": 1,
+            "name": "Урок №1. Личность Иисуса",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1593,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_1.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          }
+        ]
+      },
+      {
+        "name": "Серия: Личность Иисуса",
+        "lessons": [
+          {
+            "number": 1,
+            "name": "Урок №1. Личность Иисуса",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1593,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_1.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          }
+        ]
+      },
+      {
+        "name": "Серия: Личность Иисуса",
+        "lessons": [
+          {
+            "number": 1,
+            "name": "Урок №1. Личность Иисуса",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1593,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_1.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          }
+        ]
+      },
+      {
+        "name": "Серия: Личность Иисуса",
+        "lessons": [
+          {
+            "number": 1,
+            "name": "Урок №1. Личность Иисуса",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1593,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_1.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          }
+        ]
+      },
+      {
+        "name": "Серия: Личность Иисуса",
+        "lessons": [
+          {
+            "number": 1,
+            "name": "Урок №1. Личность Иисуса",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1593,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_1.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          }
+        ]
+      },
+      {
+        "name": "Серия: Личность Иисуса",
+        "lessons": [
+          {
+            "number": 1,
+            "name": "Урок №1. Личность Иисуса",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1593,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_1.mp3"
+          },
+          {
+            "number": 2,
+            "name": "Урок №2. Божие предвечное определение во Христе",
+            "image": "https://bogblagodat.pp.ua/wp-content/uploads/Bert-Clendennen_150.jpg",
+            "duration": 1027,
+            "url": "https://bogblagodat.pp.ua/wp-content/soc/soc_02_2.mp3"
+          }
+        ]
+      }
+    ]
+  }
